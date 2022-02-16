@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/logo.png" />
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/260dcb33f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>To Do List</h1>
+      <form>
+        <input type="text" name="task-grup-name" id="user-task-grup-input" /
+        placeholder="Add a new Group">
+        <button class="add-task-grup">Add New Group</button>
+      </form>
+    </header>
+
+    <main class="task-group-container">
+      <article class="task-group">
+        <header class="task-group-header">
+          <h2 class="task-group-title">To Do</h2>
+          <span id="edit-delte-group-task" class="edit-delete-icons">
+            <i class="fas fa-pen"></i>
+            <i id="delete-group-icon" class="fa fa-trash-o"></i>
+          </span>
+        </header>
+        <div class="tasks-container"></div>
+        <div class="add-title">
+          <button class="add-task-btn">
+            <i class="fa fa-plus"></i> Add a Card
+          </button>
+          <div id="add-task-btn1">
+            <input
+              class="user-new-task-input"
+              type="text"
+              placeholder="Enter a title for this card"
+            />
+            <div class="add-close-card">
+              <button class="add-card-btn">Add Card</button>
+              <i class="fa fa-close"></i>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="task-group">
+        <header class="task-group-header">
+          <h2 class="task-group-title">In Progress</h2>
+          <span id="edit-delte-group-task" class="edit-delete-icons">
+            <i class="fas fa-pen"></i>
+            <i id="delete-group-icon" class="fa fa-trash-o"></i>
+          </span>
+        </header>
+        <div class="tasks-container"></div>
+        <div class="add-title">
+          <button class="add-task-btn">
+            <i class="fa fa-plus"></i> Add a Card
+          </button>
+          <div id="add-task-btn1">
+            <input
+              class="user-new-task-input"
+              type="text"
+              placeholder="Enter a title for this card"
+            />
+            <div class="add-close-card">
+              <button class="add-card-btn">Add Card</button>
+              <i class="fa fa-close"></i>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="task-group">
+        <header class="task-group-header">
+          <h2 class="task-group-title">Done</h2>
+          <span id="edit-delte-group-task" class="edit-delete-icons">
+            <i class="fas fa-pen"></i>
+            <i id="delete-group-icon" class="fa fa-trash-o"></i>
+          </span>
+        </header>
+        <div class="tasks-container"></div>
+        <div class="add-title">
+          <button class="add-task-btn">
+            <i class="fa fa-plus"></i> Add a Card
+          </button>
+          <div id="add-task-btn1">
+            <input
+              class="user-new-task-input"
+              type="text"
+              placeholder="Enter a title for this card"
+            />
+            <div class="add-close-card">
+              <button class="add-card-btn">Add Card</button>
+              <i class="fa fa-close"></i>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
